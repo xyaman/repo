@@ -22,7 +22,9 @@
         },
         {
           "class":"DepictionMarkdownView",
-          "markdown":"Simple status bar audio visualizer for iOS 14."
+          "useSpacing": true,
+          "useRawFormat": true,
+          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple status bar audio visualizer for iOS 14</h3><p>Visualyzer is a simple tweak that displays a simple audio visualizer in your status bar</p><h4>Features:</h4><ul><li><strong>Automatically pauses when the phone is locked</strong></li><li><strong>Custom appearance</strong></li><li><strong>Custom positioning</strong></li></ul></div></div>."
         },
         {
           "class":"DepictionSeparatorView"

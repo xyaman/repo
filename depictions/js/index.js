@@ -16,7 +16,7 @@ if(package) {
 		// Get info from sileo.json
 		const infoViews = info.tabs[0].views;
 		const infoBanner = info.headerImage;
-		const infoDescription = infoViews.filter(c => c.class === "DepictionMarkdownView")[0].title;
+		const infoDescription = infoViews.filter(c => c.class === "DepictionMarkdownView")[0].markdown;
 		const infoScreenshots = infoViews.filter(c => c.class === "DepictionScreenshotsView")[0].screenshots;
 
 		// Set package header

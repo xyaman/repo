@@ -11,11 +11,11 @@
           "class":"DepictionScreenshotsView",
           "itemSize":"{160, 275.41333333333336}",
           "itemCornerRadius":6,
-          "screenshots":{
+          "screenshots":[{
             "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss1.png",
             "accessibilityText":"screenshot 1",
             "video":false
-          }
+          }]
         },
         {
           "class":"DepictionSeparatorView"

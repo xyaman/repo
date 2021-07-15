@@ -10,6 +10,12 @@ html, body {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
 img#package-banner {
 	width: 100%;
 	height: auto;
@@ -46,9 +52,22 @@ img#package-banner {
 	padding: 1em;	
 }
 
+.container ul {
+	margin-left: 15px;
+}
+
 @media (prefers-color-scheme: dark) {
-  body {
+  body{
     background-color: black;
     color: white;
   }	
+
+  a {
+  	color: lightblue;
+  }
+
+  #dev-twitter img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
 }

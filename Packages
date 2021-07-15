@@ -5,15 +5,15 @@ Maintainer: Xyaman
 Installed-Size: 364
 Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16)
 Filename: ./debs/com.xyaman.visualyzer_0.0.1_iphoneos-arm.deb
-Size: 32894
-MD5sum: acfe83603d08aacc886f9b3c4a2e9ae5
-SHA1: 20ca8ea34789818415ecff56e5fef6100410864c
-SHA256: 9512de28a8b032f5b559e22ff7aeb08c228409b16475600ac29fc18f2092a8a2
+Size: 29888
+MD5sum: e6a5391708838a326d93825f5ff9dc13
+SHA1: 07cf22bae491ac4d9954d1fceb1f8455922e2304
+SHA256: ef386e0f2ffcb9fd7a69dda750ee8496b8fa15d0e8c7cb05380fef9801949c8f
 Section: Tweaks
 Description: Simple status bar audio visualizer for iOS 14.
 Author: Xyaman
-Depiction: https://repo.xyaman.xyz/depictions/visualyzer/index.html
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
 Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
 Name: Visualyzer
-Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/sileo.json
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
 

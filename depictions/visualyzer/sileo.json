@@ -22,7 +22,7 @@
         },
         {
           "class":"DepictionMarkdownView",
-          "title":"Simple status bar audio visualizer for iOS 14."
+          "markdown":"Simple status bar audio visualizer for iOS 14."
         },
         {
           "class":"DepictionSeparatorView"

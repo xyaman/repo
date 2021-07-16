@@ -15,6 +15,16 @@
             "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss1.png",
             "accessibilityText":"screenshot 1",
             "video":false
+          },
+          {
+            "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss2.png",
+            "accessibilityText":"screenshot 2",
+            "video":false
+          },
+          {
+            "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss3.png",
+            "accessibilityText":"screenshot 3",
+            "video":false
           }]
         },
         {
@@ -24,7 +34,7 @@
           "class":"DepictionMarkdownView",
           "useSpacing": true,
           "useRawFormat": true,
-          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple status bar audio visualizer</h3><p>Visualyzer is a simple tweak that displays a simple audio visualizer in your status bar</p><h4>Features:</h4><ul><li><strong>Automatically pauses when the phone is locked</strong></li><li><strong>Custom appearance</strong></li><li><strong>Custom positioning</strong></li></ul></div></div>"
+          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple status bar audio visualizer</h3><p>Visualyzer is a tweak that displays a simple audio visualizer in your status bar</p><h4>Features:</h4><ul><li>Automatically pauses when the phone is locked</li><li>Custom appearance</li><li>Custom positioning</li></ul></div></div>"
         },
         {
           "class":"DepictionSeparatorView"
@@ -68,6 +78,11 @@
           "class":"DepictionSpacerView",
           "spacing":8
         },
+        {
+          "class":"DepictionTableButtonView",
+          "title":"Donate me ☕️",
+          "action":"https://paypal.me/xyamandev"
+        }
         {
           "class":"DepictionTableButtonView",
           "title":"Xyaman's Twitter",

@@ -5,8 +5,6 @@ const website = window.location.href.split("?")[0];
 
 if(package) {
 
-	console.log(website);
-
 	// Get package info (sileo info)
 	// fetch(`https://${website}/${package}/sileo.json`)
 	fetch(`https://repo.xyaman.xyz/depictions/visualyzer/depiction.json`)
@@ -19,7 +17,8 @@ if(package) {
 		const infoDescription = infoViews.filter(c => c.class === "DepictionMarkdownView")[0].markdown;
 		const infoScreenshots = infoViews.filter(c => c.class === "DepictionScreenshotsView")[0].screenshots;
 		const infoDetails = infoViews.filter(c => c.class === "DepictionTableTextView");
-		const infoTwitter = infoViews.filter(c => c.class === "DepictionTableButtonView")[0];
+		const infoDonate = infoViews.filter(c => c.class === "DepictionTableButtonView")[0];
+		const infoTwitter = infoViews.filter(c => c.class === "DepictionTableButtonView")[1];
 
 		// Set package header
 		const banner = document.getElementById("package-banner");
@@ -35,21 +34,28 @@ if(package) {
 		const description = document.getElementById("package-description");
 		description.innerHTML = `${infoDescription}`;
 
-		const twitter = document.getElementById("dev-twitter");
-		twitter.src = infoTwitter.action;
-		twitter.innerHTML += `${infoTwitter.title}`;
-
-
 		// Set package details
 		const details = document.getElementById("package-details");
 		infoDetails.map(row => {
 			details.innerHTML += `
 			<tr>
 			  <th style="text-align:left">${row.title}</th>
-			  <th style="text-align:left;padding-left:1em">${row.text}</th>
+			  <th style="text-align:right;padding-left:1em">${row.text}</th>
 			</tr>
 			`
 		});
+
+		// Set Dev donate method
+		const donate = document.getElementById("dev-donate");
+		donate.src = infoDonate.action;
+		donate.innerHTML += `${infoDonate.title}`;
+
+		// Set Dev twitter
+		const twitter = document.getElementById("dev-twitter");
+		twitter.src = infoTwitter.action;
+		twitter.innerHTML += `${infoTwitter.title}`;
+
+
 	});
 
 }

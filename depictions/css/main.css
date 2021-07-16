@@ -23,15 +23,16 @@ img#package-banner {
 
 .screenshot-scroller {
 	height:600px;
-    overflow-x: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .screenshot-scroller ul {
 	list-style: none;
 	white-space:nowrap;
 	margin-right: 15px;
-    margin-left: 15px;
-    transform: translateY(10px);
+  margin-left: 15px;
+  transform: translateY(10px);
 }
 
 .screenshot-scroller li {
@@ -44,8 +45,8 @@ img#package-banner {
 
 .screenshot-scroller img {
 	height: 580px;
-    width: auto;
-    border-radius: 8px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .container {

@@ -22,7 +22,7 @@ img#package-banner {
 }
 
 .screenshot-scroller {
-	height:600px;
+	height:400px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -44,7 +44,7 @@ img#package-banner {
 }
 
 .screenshot-scroller img {
-	height: 580px;
+	height: 380px;
   width: auto;
   border-radius: 8px;
 }

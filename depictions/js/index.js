@@ -47,12 +47,12 @@ if(package) {
 
 		// Set Dev donate method
 		const donate = document.getElementById("dev-donate");
-		donate.src = infoDonate.action;
+		donate.href = infoDonate.action;
 		donate.innerHTML += `${infoDonate.title}`;
 
 		// Set Dev twitter
 		const twitter = document.getElementById("dev-twitter");
-		twitter.src = infoTwitter.action;
+		twitter.href = infoTwitter.action;
 		twitter.innerHTML += `${infoTwitter.title}`;
 
 

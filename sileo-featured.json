@@ -1,0 +1,12 @@
+{
+   "class":"FeaturedBannersView",
+   "itemSize":"{263, 148}",
+   "itemCornerRadius":10,
+   "banners":[
+      {
+         "title":"Visualyzer",
+         "package":"com.xyaman.visualyzer",
+         "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png"
+      },
+   ]
+}

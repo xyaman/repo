@@ -82,7 +82,7 @@
           "class":"DepictionTableButtonView",
           "title":"Donate me ☕️",
           "action":"https://paypal.me/xyamandev"
-        }
+        },
         {
           "class":"DepictionTableButtonView",
           "title":"Xyaman's Twitter",

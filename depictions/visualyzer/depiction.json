@@ -52,7 +52,7 @@
         {
           "class":"DepictionTableTextView",
           "title":"Current Version",
-          "text":"0.0.1"
+          "text":"0.0.2"
         },
         {
           "class":"DepictionTableTextView",

@@ -92,7 +92,7 @@
           "class": "DepictionTableButtonView",
           "title": "View Full Changelog",
           "action": "https://repo.xyaman.xyz/depictions/visualyzer/changelog.html"
-        },
+        }
       ]
     }
   ]

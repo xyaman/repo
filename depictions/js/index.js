@@ -50,7 +50,7 @@ if(package) {
 
 		// Set changelog
 		const changelog = document.getElementById("package-changelog");
-		changelog.href = changelogURL;
+		changelog.href = changelogURL.action;
 
 		// Set Dev donate method
 		const donate = document.getElementById("dev-donate");

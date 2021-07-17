@@ -36,3 +36,22 @@ Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
 Name: Visualyzer
 Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
 
+Package: com.xyaman.visualyzer
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16)
+Filename: ./debs/com.xyaman.visualyzer_0.1.0_iphoneos-arm.deb
+Size: 33998
+MD5sum: 26404171a35e896f253c94fc0a79b25a
+SHA1: f60e9d51701dfc056b2dd5bedf37d06992a5dc60
+SHA256: 7684563715b0e5bd1fe1092e4f6ee4b32062cfa8fa59c48b2046ef4a0e582ca0
+Section: Tweaks
+Description: Simple status bar audio visualizer.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+Name: Visualyzer
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+

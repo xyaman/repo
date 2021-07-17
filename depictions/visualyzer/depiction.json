@@ -34,7 +34,7 @@
           "class":"DepictionMarkdownView",
           "useSpacing": true,
           "useRawFormat": true,
-          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple status bar audio visualizer</h3><p>Visualyzer is a tweak that displays a simple audio visualizer in your status bar</p><h4>Features:</h4><ul><li>Automatically pauses when the phone is locked</li><li>Custom appearance</li><li>Custom positioning</li></ul></div></div>"
+          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple status bar audio visualizer</h3><p>Visualyzer is a tweak that displays a simple audio visualizer in your status bar</p><h4>Features:</h4><ul><li>Custom appearance</li><li>Custom positioning</li><li>Tap Gestures</li><li>Automatically pauses when the phone is locked</li><li>And more!</li></ul></div></div>"
         },
         {
           "class":"DepictionSeparatorView"
@@ -52,12 +52,12 @@
         {
           "class":"DepictionTableTextView",
           "title":"Current Version",
-          "text":"0.0.2"
+          "text":"0.1.0"
         },
         {
           "class":"DepictionTableTextView",
           "title":"Last Time Updated",
-          "text":"07-16-2021"
+          "text":"07-17-2021"
         },
         {
           "class":"DepictionTableTextView",
@@ -72,7 +72,7 @@
         {
           "class":"DepictionTableTextView",
           "title":"Compatibility",
-          "text":"iOS 14"
+          "text":"iOS 13 & 14"
         },
         {
           "class":"DepictionSpacerView",

@@ -75,11 +75,6 @@
           "text":"iOS 13 & 14"
         },
         {
-          "class": "DepictionTableButtonView",
-          "title": "View Full Changelog",
-          "action": "https://repo.xyaman.xyz/depictions/visualyzer/changelog.html"
-        },
-        {
           "class":"DepictionSpacerView",
           "spacing":8
         },
@@ -92,7 +87,12 @@
           "class":"DepictionTableButtonView",
           "title":"Xyaman's Twitter",
           "action":"https://twitter.com/xyamanDEV"
-        }
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View Full Changelog",
+          "action": "https://repo.xyaman.xyz/depictions/visualyzer/changelog.html"
+        },
       ]
     }
   ]

@@ -79,6 +79,11 @@
           "spacing":8
         },
         {
+          "class": "DepictionTableButtonView",
+          "title": "View Full Changelog",
+          "action": "https://repo.xyaman.xyz/depictions/visualyzer/changelog.html"
+        },
+        {
           "class":"DepictionTableButtonView",
           "title":"Donate me ☕️",
           "action":"https://paypal.me/xyamandev"
@@ -87,11 +92,6 @@
           "class":"DepictionTableButtonView",
           "title":"Xyaman's Twitter",
           "action":"https://twitter.com/xyamanDEV"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "View Full Changelog",
-          "action": "https://repo.xyaman.xyz/depictions/visualyzer/changelog.html"
         }
       ]
     }

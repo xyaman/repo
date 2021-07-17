@@ -16,11 +16,11 @@ if(package) {
 		const infoBanner = info.headerImage;
 		const infoDescription = infoViews.filter(c => c.class === "DepictionMarkdownView")[0].markdown;
 		const infoScreenshots = infoViews.filter(c => c.class === "DepictionScreenshotsView")[0].screenshots;
-		let infoDetails = infoViews.filter(c => c.class === "DepictionTableTextView");
-		let changelogURL = infoDetails.pop();
+		const infoDetails = infoViews.filter(c => c.class === "DepictionTableTextView");
 
-		const infoDonate = infoViews.filter(c => c.class === "DepictionTableButtonView")[0];
-		const infoTwitter = infoViews.filter(c => c.class === "DepictionTableButtonView")[1];
+		const infoChangelog = infoViews.filter(c => c.class === "DepictionTableButtonView")[0];
+		const infoDonate = infoViews.filter(c => c.class === "DepictionTableButtonView")[1];
+		const infoTwitter = infoViews.filter(c => c.class === "DepictionTableButtonView")[2];
 
 
 		// Set package header

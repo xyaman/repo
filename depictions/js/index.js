@@ -16,9 +16,12 @@ if(package) {
 		const infoBanner = info.headerImage;
 		const infoDescription = infoViews.filter(c => c.class === "DepictionMarkdownView")[0].markdown;
 		const infoScreenshots = infoViews.filter(c => c.class === "DepictionScreenshotsView")[0].screenshots;
-		const infoDetails = infoViews.filter(c => c.class === "DepictionTableTextView");
+		let infoDetails = infoViews.filter(c => c.class === "DepictionTableTextView");
+		let changelogURL = infoDetails.pop();
+
 		const infoDonate = infoViews.filter(c => c.class === "DepictionTableButtonView")[0];
 		const infoTwitter = infoViews.filter(c => c.class === "DepictionTableButtonView")[1];
+
 
 		// Set package header
 		const banner = document.getElementById("package-banner");
@@ -44,6 +47,10 @@ if(package) {
 			</tr>
 			`
 		});
+
+		// Set changelog
+		const changelog = document.getElementById("package-changelog");
+		changelog.href = changelogURL;
 
 		// Set Dev donate method
 		const donate = document.getElementById("dev-donate");

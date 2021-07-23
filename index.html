@@ -1,20 +1,88 @@
-<!DOCTYPE html>
-<html>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Xyaman Repo</title>
-<body>
-	<h1>Xyaman Repo</h1>
-	<p><small>I'm sorry for the design :( It's WIP</small></p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<p>This is a Cydia repo!</p>
-	<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xyaman.xyz/">Add to Cydia</a>
-	<br>
-	<a href="sileo://source/https://repo.xyaman.xyz/">Add to Sileo</a>
-	<br>
-	<a href="zbra://sources/add/https://repo.xyaman.xyz/">Add to Zebra</a>
-	<br>
-	<a href="installer://add/https://repo.xyaman.xyz/">Add to Installer</a>
-	<br>
-</body>
+    <title>Xyaman's repo</title>
+    <meta name="description" content="Xyaman's repo" />
+    <meta name="author" content="Xyaman" />
+
+    <meta property="og:title" content="Xyaman's repo" />
+    <meta property="og:type" content="Repository" />
+    <meta property="og:url" content="https://repo.xyaman.xyz" />
+    <meta property="og:description" content="Xyaman's repo" />
+    <meta property="og:image" content="images/avatar.png" />
+
+    <!-- <link rel="icon" href="images/favicon.ico" /> -->
+    <!-- <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- PURE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
+    />
+  </head>
+  <body>
+    <div class="container secondary-background">
+      <h1>Xyaman's repo</h1>
+    </div>
+
+    <!-- Socials -->
+    <div class="pure-g">
+      <!-- Cydia -->
+      <div class="pure-u-1-2 pure-u-md-1-4">
+        <a
+          href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xyaman.xyz/"
+          class="social-badge"
+          style="background-color: #573022"
+        >
+          <img class="pure-img bigger" src="images/cydia-icon.svg" />
+          <p style="color: white">Cydia</p>
+        </a>
+      </div>
+
+      <!-- Sileo -->
+      <div class="pure-u-1-2 pure-u-md-1-4">
+        <a
+          href="sileo://source/https://repo.xyaman.xyz/"
+          class="social-badge"
+          style="background-color: #2cb1be"
+        >
+          <img class="pure-img" src="images/sileo-icon.svg" />
+          <p style="color: white">Sileo</p>
+        </a>
+      </div>
+
+      <!-- Zebra -->
+      <div class="pure-u-1-2 pure-u-md-1-4">
+        <a
+          href="zbra://sources/add/https://repo.xyaman.xyz/"
+          class="social-badge"
+          style="background-color: #e4e4e6"
+        >
+          <img class="pure-img bigger" src="images/zebra-icon.svg" />
+          <p style="color: #424242">Zebra</p>
+        </a>
+      </div>
+
+      <!-- Installer -->
+      <div class="pure-u-1-2 pure-u-md-1-4">
+        <a
+          href="installer://add/https://repo.xyaman.xyz/"
+          class="social-badge"
+          style="background-color: #3fb8fe"
+        >
+          <img class="pure-img" src="images/installer-icon.png" />
+          <p style="color: #424242">Installer</p>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>

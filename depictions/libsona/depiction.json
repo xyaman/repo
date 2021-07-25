@@ -1,7 +1,7 @@
 {
   "class":"DepictionTabView",
   "minVersion":"0.1",
-  "headerImage":"",
+  "headerImage":"https://repo.xyaman.xyz/depictions/libsona/assets/banner.png",
   "tabs":[
     {
       "class": "DepictionStackView",

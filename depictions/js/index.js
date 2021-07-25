@@ -7,7 +7,7 @@ if(package) {
 
 	// Get package info (sileo info)
 	// fetch(`https://${website}/${package}/sileo.json`)
-	fetch(`https://repo.xyaman.xyz/depictions/visualyzer/depiction.json`)
+	fetch(`https://repo.xyaman.xyz/depictions/${package}/depiction.json`)
 	.then(response => response.json())
 	.then(info => {
 

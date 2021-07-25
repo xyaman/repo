@@ -1,0 +1,85 @@
+{
+  "class":"DepictionTabView",
+  "minVersion":"0.1",
+  "headerImage":"https://repo.xyaman.xyz/depictions/libkuro/assets/banner.png",
+  "tabs":[
+    {
+      "class": "DepictionStackView",
+      "tabname":"Overview",
+      "views":[
+        {
+          "class":"DepictionScreenshotsView",
+          "itemSize":"{160, 275.41333333333336}",
+          "itemCornerRadius":6,
+          "screenshots":[]
+        },
+        {
+          "class":"DepictionSeparatorView"
+        },
+        {
+          "class":"DepictionMarkdownView",
+          "useSpacing": true,
+          "useRawFormat": true,
+          "markdown":"<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Simple image processing library</h3><h4>Features:</h4><ul><li>Get image primary color.</li><li>Get if image is dark</li><li>Get if color is dark</li><li>Get a lighter color from another.</li><li>Get a darker color from another.</li><li>For more info see my github</li></ul></div></div>"
+        },
+        {
+          "class":"DepictionSeparatorView"
+        },
+        {
+          "class":"DepictionHeaderView",
+          "title":"Details",
+          "useBoldText":true
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Developer",
+          "text":"Xyaman"
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Current Version",
+          "text":"0.0.1"
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Last Time Updated",
+          "text":"07-25-2021"
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Released",
+          "text":"07-24-2021"
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Price",
+          "text":"Free"
+        },
+        {
+          "class":"DepictionTableTextView",
+          "title":"Compatibility",
+          "text":"iOS"
+        },
+        {
+          "class":"DepictionSpacerView",
+          "spacing":8
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View Full Changelog",
+          "action": "https://repo.xyaman.xyz/depictions/libkuro/changelog.html"
+        },
+        {
+          "class":"DepictionTableButtonView",
+          "title":"Donate me ☕️",
+          "action":"https://paypal.me/xyamandev"
+        },
+        {
+          "class":"DepictionTableButtonView",
+          "title":"Xyaman's Twitter",
+          "action":"https://twitter.com/xyamanDEV"
+        }
+      ]
+    }
+  ]
+}

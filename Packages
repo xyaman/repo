@@ -1,18 +1,21 @@
 Package: com.xyaman.libkuro
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: Diego Barría
 Installed-Size: 172
-Filename: ./debs/com.xyaman.libkuro_0.0.1_iphoneos-arm.deb
-Size: 5642
-MD5sum: 94ae31d0f7154fd4a1c0de2a396004eb
-SHA1: 7da1e603cf94fce4293baf651a5c58d4dbc83305
-SHA256: 1f1e43229aff7fdae780c1e4c8eaa3d295fcf4d104a8c82bebb45d0efaa25f23
+Filename: ./debs/com.xyaman.libkuro_0.0.2_iphoneos-arm.deb
+Size: 6284
+MD5sum: 0cae7a119b1cde2468feb58fa1a07f00
+SHA1: 66f73dc622959b039a797e32f4dfa118850dcf3f
+SHA256: 5ff853c9e07e3be625c0a70d4fb645a6230e3327cb04457daf3c7f930a0076a8
 Section: System
-Description: Very simple image library to get primary color.
+Description: Very simple image library.
 Tag: role::developer
 Author: Diego Barría
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libkuro
+Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
 Name: libKuro
+Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
 
 Package: com.xyaman.visualyzer
 Version: 0.0.1

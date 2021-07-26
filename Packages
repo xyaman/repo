@@ -17,6 +17,25 @@ Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
 Name: libKuro
 Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
 
+Package: com.xyaman.libsona
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 232
+Filename: ./debs/com.xyaman.libsona_0.0.1_iphoneos-arm.deb
+Size: 19262
+MD5sum: cfd55ba0be0c47f62099fdaffc0520e9
+SHA1: c47a0320e9497a287e6dec709e8faf16a2151d0c
+SHA256: 0b43f37161646f861a5233315bd4483d4af13b8a0ace6643e601c46596166ce0
+Section: System
+Description: Simple audio visualizer library.
+Tag: role::developer
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
+Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
+Name: libSona
+Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+
 Package: com.xyaman.visualyzer
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -66,6 +85,25 @@ Size: 33998
 MD5sum: 26404171a35e896f253c94fc0a79b25a
 SHA1: f60e9d51701dfc056b2dd5bedf37d06992a5dc60
 SHA256: 7684563715b0e5bd1fe1092e4f6ee4b32062cfa8fa59c48b2046ef4a0e582ca0
+Section: Tweaks
+Description: Simple status bar audio visualizer.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+Name: Visualyzer
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+
+Package: com.xyaman.visualyzer
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16), com.xyaman.libsona, com.xyaman.libkuro
+Filename: ./debs/com.xyaman.visualyzer_0.2.0_iphoneos-arm.deb
+Size: 29856
+MD5sum: cea48a4c26c76f5657290c34d7438f39
+SHA1: 626ef9ae7cf7c9e26f3a3330f2bc26adff91f2fc
+SHA256: 5e6095a6ce9b2ad062a353b81f1563007f16176baad6675840b8f17c4a2550a5
 Section: Tweaks
 Description: Simple status bar audio visualizer.
 Author: Xyaman

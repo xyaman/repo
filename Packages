@@ -36,6 +36,25 @@ Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 Name: libSona
 Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
 
+Package: com.xyaman.libsona
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 236
+Filename: ./debs/com.xyaman.libsona_0.1.0_iphoneos-arm.deb
+Size: 23170
+MD5sum: cff1f8023fcebf9eddb7f7f375b780fa
+SHA1: c55cc75718ac597a94ac94bff47674ac294aff1f
+SHA256: 40914c6507498478c44f694339c57a55390bfc158755496885e8dc46a3dbf6b1
+Section: System
+Description: Simple audio visualizer library.
+Tag: role::developer
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
+Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
+Name: libSona
+Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+
 Package: com.xyaman.visualyzer
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -104,6 +123,25 @@ Size: 29856
 MD5sum: cea48a4c26c76f5657290c34d7438f39
 SHA1: 626ef9ae7cf7c9e26f3a3330f2bc26adff91f2fc
 SHA256: 5e6095a6ce9b2ad062a353b81f1563007f16176baad6675840b8f17c4a2550a5
+Section: Tweaks
+Description: Simple status bar audio visualizer.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+Name: Visualyzer
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+
+Package: com.xyaman.visualyzer
+Version: 0.3.0
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16), com.xyaman.libsona (>= 0.1.0), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.visualyzer_0.3.0_iphoneos-arm.deb
+Size: 31350
+MD5sum: 045a5c016f38bef7fe7e69110c80ecef
+SHA1: 17c0adde2f751af7e564ba167478aad7ab5c3bfd
+SHA256: 596a8b5370bfaf1c09360edd28059430fbcb4262bd4831879dd880bcacea3aba
 Section: Tweaks
 Description: Simple status bar audio visualizer.
 Author: Xyaman

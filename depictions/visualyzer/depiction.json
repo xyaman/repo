@@ -25,6 +25,11 @@
             "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss3.png",
             "accessibilityText":"screenshot 3",
             "video":false
+          },
+          {
+            "url":"https://repo.xyaman.xyz/depictions/visualyzer/assets/ss4.png",
+            "accessibilityText":"screenshot 4",
+            "video":false
           }]
         },
         {

@@ -1,13 +1,13 @@
 Package: com.xyaman.libkuro
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: Diego Barría
 Installed-Size: 172
-Filename: ./debs/com.xyaman.libkuro_0.0.2_iphoneos-arm.deb
-Size: 6284
-MD5sum: 0cae7a119b1cde2468feb58fa1a07f00
-SHA1: 66f73dc622959b039a797e32f4dfa118850dcf3f
-SHA256: 5ff853c9e07e3be625c0a70d4fb645a6230e3327cb04457daf3c7f930a0076a8
+Filename: ./debs/com.xyaman.libkuro_0.0.3_iphoneos-arm.deb
+Size: 6430
+MD5sum: eea6beaa90df44b1f59bca2bbec0238d
+SHA1: 5fa81a8090a16d9fdaeb761abb49350876a4eeb2
+SHA256: 11933b238efb69f77ce3976023a397ec0867910b1fbd124d09040ca8dc3060ae
 Section: System
 Description: Very simple image library.
 Tag: role::developer
@@ -16,25 +16,6 @@ Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libkuro
 Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
 Name: libKuro
 Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
-
-Package: com.xyaman.libsona
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Xyaman
-Installed-Size: 232
-Filename: ./debs/com.xyaman.libsona_0.0.1_iphoneos-arm.deb
-Size: 19262
-MD5sum: cfd55ba0be0c47f62099fdaffc0520e9
-SHA1: c47a0320e9497a287e6dec709e8faf16a2151d0c
-SHA256: 0b43f37161646f861a5233315bd4483d4af13b8a0ace6643e601c46596166ce0
-Section: System
-Description: Simple audio visualizer library.
-Tag: role::developer
-Author: Xyaman
-Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
-Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
-Name: libSona
-Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
 
 Package: com.xyaman.libsona
 Version: 0.1.0
@@ -54,6 +35,45 @@ Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
 Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 Name: libSona
 Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+
+Package: com.xyaman.libsona
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 236
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Filename: ./debs/com.xyaman.libsona_0.1.1_iphoneos-arm.deb
+Size: 23558
+MD5sum: 73ae8c0063735b76f976d029b63281e0
+SHA1: c7881a18f88fa73c5cbb0986adcaf211d7fffc60
+SHA256: 330ba74faaa75d06477eef2ea21189a55e74f7465ae81a50670e2c7cb3607e52
+Section: System
+Description: Simple audio visualizer library.
+Tag: role::developer
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
+Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
+Name: libSona
+Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+
+Package: com.xyaman.vide
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 440
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), com.mrgcgamer.libgcuniversal, com.xyaman.libkuro, com.xyaman.libsona
+Filename: ./debs/com.xyaman.vide_0.0.1_iphoneos-arm.deb
+Size: 25554
+MD5sum: bd10c4a6182c6351031ca9b174156ef5
+SHA1: d1570dae98dfa88e5cacddd51a692a25ee631673
+SHA256: ea482c00afa859130414128bfb9b7a8a56431478ba571fcaacb0f4e5f112b595
+Section: Tweaks
+Description: Customize your Lockscreen and CC media player.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=vide
+Icon: https://repo.xyaman.xyz/depictions/vide/assets/icon.png
+Name: Vide
+Sileodepiction: https://repo.xyaman.xyz/depictions/vide/depiction.json
 
 Package: com.xyaman.visualyzer
 Version: 0.0.1
@@ -142,6 +162,25 @@ Size: 31350
 MD5sum: 045a5c016f38bef7fe7e69110c80ecef
 SHA1: 17c0adde2f751af7e564ba167478aad7ab5c3bfd
 SHA256: 596a8b5370bfaf1c09360edd28059430fbcb4262bd4831879dd880bcacea3aba
+Section: Tweaks
+Description: Simple status bar audio visualizer.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+Name: Visualyzer
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+
+Package: com.xyaman.visualyzer
+Version: 0.3.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16), com.xyaman.libsona (>= 0.1.0), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.visualyzer_0.3.1_iphoneos-arm.deb
+Size: 31054
+MD5sum: 53fba7a4bc7383a799de050c3a84cab5
+SHA1: 2a2d9bdf1196ce6e1cea7613ec6c3d501f9001f5
+SHA256: 68b92e40d0eec9f8bad9d18844b5c41c3eb8fe6b9eba0a4948d7c16c0740946d
 Section: Tweaks
 Description: Simple status bar audio visualizer.
 Author: Xyaman

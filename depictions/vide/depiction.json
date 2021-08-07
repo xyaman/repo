@@ -1,0 +1,101 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://repo.xyaman.xyz/depictions/vide/assets/banner.png",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Overview",
+            "views": [
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "url": "https://repo.xyaman.xyz/depictions/vide/assets/ss1.png",
+                            "accessibilityText": "screenshot 1",
+                            "video": false
+                        },
+                        {
+                            "url": "https://repo.xyaman.xyz/depictions/vide/assets/ss2.png",
+                            "accessibilityText": "screenshot 2",
+                            "video": false
+                        },
+                        {
+                            "url": "https://repo.xyaman.xyz/depictions/vide/assets/ss3.png",
+                            "accessibilityText": "screenshot 3",
+                            "video": false
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "useSpacing": true,
+                    "useRawFormat": true,
+                    "markdown": "<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Customize your Lockscreen and CC media player.</h3><h4>Features:</h4><ul><li>Hide elements.</li><li>Change radius.</li><li>Change colors</li><li>Customize artwork</li><li>Add wave visualization.</li><li>Add swipe gestures.</li><li>And more!!</li><li>Also look at this project on my github</li></ul></div></div>"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Details",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "Xyaman"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Current Version",
+                    "text": "0.0.1"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Last Time Updated",
+                    "text": "08-07-2021"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Released",
+                    "text": "08-07-2021"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 14"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "View Full Changelog",
+                    "action": "https://repo.xyaman.xyz/depictions/vide/changelog.html"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Donate me ☕️",
+                    "action": "https://paypal.me/xyamandev"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Xyaman's Twitter",
+                    "action": "https://twitter.com/xyamanDEV"
+                }
+            ]
+        }
+    ]
+}

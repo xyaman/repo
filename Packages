@@ -18,25 +18,6 @@ Name: libKuro
 Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
 
 Package: com.xyaman.libsona
-Version: 0.1.0
-Architecture: iphoneos-arm
-Maintainer: Xyaman
-Installed-Size: 236
-Filename: ./debs/com.xyaman.libsona_0.1.0_iphoneos-arm.deb
-Size: 23170
-MD5sum: cff1f8023fcebf9eddb7f7f375b780fa
-SHA1: c55cc75718ac597a94ac94bff47674ac294aff1f
-SHA256: 40914c6507498478c44f694339c57a55390bfc158755496885e8dc46a3dbf6b1
-Section: System
-Description: Simple audio visualizer library.
-Tag: role::developer
-Author: Xyaman
-Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
-Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
-Name: libSona
-Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
-
-Package: com.xyaman.libsona
 Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: Xyaman
@@ -47,6 +28,26 @@ Size: 23558
 MD5sum: 73ae8c0063735b76f976d029b63281e0
 SHA1: c7881a18f88fa73c5cbb0986adcaf211d7fffc60
 SHA256: 330ba74faaa75d06477eef2ea21189a55e74f7465ae81a50670e2c7cb3607e52
+Section: System
+Description: Simple audio visualizer library.
+Tag: role::developer
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
+Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
+Name: libSona
+Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+
+Package: com.xyaman.libsona
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 236
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Filename: ./debs/com.xyaman.libsona_0.1.2_iphoneos-arm.deb
+Size: 23308
+MD5sum: 6a0e7dab111cb2a31277edf63f5fc8c9
+SHA1: a58718fa578b88f2c6ad9efc8669ba5355f48c40
+SHA256: 64d80e4c761759e81679257eb1c717d234a98716c4a8575ffb4098cb9dec51be
 Section: System
 Description: Simple audio visualizer library.
 Tag: role::developer
@@ -67,6 +68,25 @@ Size: 25554
 MD5sum: bd10c4a6182c6351031ca9b174156ef5
 SHA1: d1570dae98dfa88e5cacddd51a692a25ee631673
 SHA256: ea482c00afa859130414128bfb9b7a8a56431478ba571fcaacb0f4e5f112b595
+Section: Tweaks
+Description: Customize your Lockscreen and CC media player.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=vide
+Icon: https://repo.xyaman.xyz/depictions/vide/assets/icon.png
+Name: Vide
+Sileodepiction: https://repo.xyaman.xyz/depictions/vide/depiction.json
+
+Package: com.xyaman.vide
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 440
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), com.mrgcgamer.libgcuniversal, com.xyaman.libkuro, com.xyaman.libsona
+Filename: ./debs/com.xyaman.vide_0.0.2_iphoneos-arm.deb
+Size: 26158
+MD5sum: 2364e36a7bd10af8417c902c844fecfd
+SHA1: 846d9425c4b38346e00fee24d386594e3dea0e3d
+SHA256: b9923a58035cceec92671358a5969274195988900aa0cd578425c03defed4be0
 Section: Tweaks
 Description: Customize your Lockscreen and CC media player.
 Author: Xyaman
@@ -181,6 +201,25 @@ Size: 31054
 MD5sum: 53fba7a4bc7383a799de050c3a84cab5
 SHA1: 2a2d9bdf1196ce6e1cea7613ec6c3d501f9001f5
 SHA256: 68b92e40d0eec9f8bad9d18844b5c41c3eb8fe6b9eba0a4948d7c16c0740946d
+Section: Tweaks
+Description: Simple status bar audio visualizer.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+Name: Visualyzer
+Sileodepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+
+Package: com.xyaman.visualyzer
+Version: 0.3.2
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16), com.xyaman.libsona (>= 0.1.0), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.visualyzer_0.3.2_iphoneos-arm.deb
+Size: 31362
+MD5sum: c6a5326c1955e90874fef51dd8ed5b57
+SHA1: b16d9716debd87afa9627e30508194b94039e1d1
+SHA256: e0ccb9db3909f185fa966e0e53085dbd0fb9b7bf44cd138a447e5956acf57f15
 Section: Tweaks
 Description: Simple status bar audio visualizer.
 Author: Xyaman

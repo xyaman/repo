@@ -1,3 +1,22 @@
+Package: com.xyaman.cucu
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 372
+Depends: mobilesubstrate, preferenceloader, com.xyaman.libkuro, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
+Filename: ./debs/com.xyaman.cucu_0.0.1_iphoneos-arm.deb
+Size: 23476
+MD5sum: 956c9ce88720586adb276160c974015f
+SHA1: dd4fac9e5cb0f71a72a585e68019d89401d0460c
+SHA256: 1524da6983d7f879508b39a2abd2e7900ef68fcdab2f366432eb2049ac041bc0
+Section: Tweaks
+Description: Customize your notifications banners
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=cucu
+Icon: https://repo.xyaman.xyz/depictions/cucu/assets/icon.png
+Name: Cucu
+Sileodepiction: https://repo.xyaman.xyz/depictions/cucu/depiction.json
+
 Package: com.xyaman.libkuro
 Version: 0.0.3
 Architecture: iphoneos-arm

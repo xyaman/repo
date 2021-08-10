@@ -1,17 +1,22 @@
 {
-   "class": "FeaturedBannersView",
-   "itemSize": "{263, 148}",
-   "itemCornerRadius": 10,
-   "banners": [
-      {
-         "title": "Visualyzer",
-         "package": "com.xyaman.visualyzer",
-         "url": "https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png"
-      },
-      {
-         "title": "Vide",
-         "package": "com.xyaman.visualyzer",
-         "url": "https://repo.xyaman.xyz/depictions/vide/assets/icon.png"
-      }
-   ]
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "title": "Visualyzer",
+            "package": "com.xyaman.visualyzer",
+            "url": "https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png"
+        },
+        {
+            "title": "Vide",
+            "package": "com.xyaman.vide",
+            "url": "https://repo.xyaman.xyz/depictions/vide/assets/icon.png"
+        },
+        {
+            "title": "Cucu",
+            "package": "com.xyaman.cucu",
+            "url": "https://repo.xyaman.xyz/depictions/cucu/assets/icon.png"
+        }
+    ]
 }

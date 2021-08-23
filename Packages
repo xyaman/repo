@@ -76,6 +76,25 @@ Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 Name: libSona
 Sileodepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
 
+Package: com.xyaman.tako
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 516
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.tako_0.0.1_iphoneos-arm.deb
+Size: 62530
+MD5sum: 76d226e66f0d4be8bdd0cf6aa9371e9e
+SHA1: 03fe04f047c28158b5b6f76d19a6f444368f3bbb
+SHA256: 8af52c362ef918248660f1da769a292729b3d1996bc260c95dd36e630bb16fad
+Section: Tweaks
+Description: Notification priority hub tweak
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=tako
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako
+Sileodepiction: https://repo.xyaman.xyz/depictions/tako/depiction.json
+
 Package: com.xyaman.vide
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -106,6 +125,25 @@ Size: 26158
 MD5sum: 2364e36a7bd10af8417c902c844fecfd
 SHA1: 846d9425c4b38346e00fee24d386594e3dea0e3d
 SHA256: b9923a58035cceec92671358a5969274195988900aa0cd578425c03defed4be0
+Section: Tweaks
+Description: Customize your Lockscreen and CC media player.
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=vide
+Icon: https://repo.xyaman.xyz/depictions/vide/assets/icon.png
+Name: Vide
+Sileodepiction: https://repo.xyaman.xyz/depictions/vide/depiction.json
+
+Package: com.xyaman.vide
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 440
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), com.mrgcgamer.libgcuniversal, com.xyaman.libkuro, com.xyaman.libsona
+Filename: ./debs/com.xyaman.vide_0.0.3_iphoneos-arm.deb
+Size: 26396
+MD5sum: 5bf63e11127c17073e4ebc6b8f5c8678
+SHA1: 6569d9ea6f3155d05072852067ec0069db2ab76f
+SHA256: 318b9b39d5e318d24c1fc4742296c17e93874b1869d9d6e6fb5085041442abff
 Section: Tweaks
 Description: Customize your Lockscreen and CC media player.
 Author: Xyaman

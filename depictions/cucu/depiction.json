@@ -44,12 +44,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Current Version",
-                    "text": "0.0.1"
+                    "text": "0.0.2"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Last Time Updated",
-                    "text": "08-10-2021"
+                    "text": "08-31-2021"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -83,7 +83,7 @@
                 {
                     "class": "DepictionTableButtonView",
                     "title": "Xyaman's Twitter",
-                    "action": "https://twitter.com/xyamanDEV"
+                    "action": "https://twitter.com/xyaman_"
                 }
             ]
         }

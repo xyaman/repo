@@ -26,7 +26,7 @@
                     "class": "DepictionMarkdownView",
                     "useSpacing": true,
                     "useRawFormat": true,
-                    "markdown": "<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Customize your notifications banners</h3><h4>Features:</h4><ul><li>Change banner dismiss delay.</li><li>Different time representations. (Timer & Fill)</li><li>Adaptative color</li><li>Custom color.</li><li>The code is open source.</li></ul></div></div>"
+                    "markdown": "<div><style>body{font:-apple-system-body;line-height:1.4}h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0 0 1rem 0}h1,h2,h3,h4,h5,h6{font-family:ui-rounded,-apple-system}.small{font-size:85%}</style><div><h3>Customize your notifications banners</h3><h4>Features:</h4><ul><li>Change banner dismiss delay.</li><li>Disable touch actions for X seconds, to prevent accidentally banner touches.</li><li>Different time representations. (Timer & Fill)</li><li>Adaptative color</li><li>Custom color.</li><li>The code is open source.</li></ul></div></div>"
                 },
                 {
                     "class": "DepictionSeparatorView"

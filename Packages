@@ -114,6 +114,25 @@ Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako
 Sileodepiction: https://repo.xyaman.xyz/depictions/tako/depiction.json
 
+Package: com.xyaman.tako
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 516
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.xyaman.tako_0.0.2_iphoneos-arm.deb
+Size: 62664
+MD5sum: 503be681ce0d681d64ee59f771c1bdf9
+SHA1: cda7e4cecb8f1bc51029d547b3d7e19f5f7c9ec2
+SHA256: bb20019fa7ded32c45db9f166ad4ae1713df476bc78fae683cf1ea54023ea574
+Section: Tweaks
+Description: Notification priority hub tweak
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=tako
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako
+Sileodepiction: https://repo.xyaman.xyz/depictions/tako/depiction.json
+
 Package: com.xyaman.vide
 Version: 0.0.1
 Architecture: iphoneos-arm

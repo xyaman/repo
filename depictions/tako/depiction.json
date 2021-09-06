@@ -54,12 +54,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Current Version",
-                    "text": "0.0.1"
+                    "text": "0.0.2"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Last Time Updated",
-                    "text": "23-08-2021"
+                    "text": "06-09-2021"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -74,7 +74,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Compatibility",
-                    "text": "iOS 14"
+                    "text": "iOS 13 && 14"
                 },
                 {
                     "class": "DepictionSpacerView",

@@ -36,6 +36,25 @@ Icon: https://repo.xyaman.xyz/depictions/cucu/assets/icon.png
 Name: Cucu
 Sileodepiction: https://repo.xyaman.xyz/depictions/cucu/depiction.json
 
+Package: com.xyaman.cucu
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Xyaman
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader, com.xyaman.libkuro, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
+Filename: ./debs/com.xyaman.cucu_0.0.3_iphoneos-arm.deb
+Size: 24418
+MD5sum: 2136fe0fc73a87366d9d779c32c0511f
+SHA1: d00f06ccc2b0eb014d4fb9a4622044522e198f36
+SHA256: 352a089b128e37701953acef32cf61edda2c80d6f2d3093703e6b52556a667b9
+Section: Tweaks
+Description: Customize your notifications banners
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=cucu
+Icon: https://repo.xyaman.xyz/depictions/cucu/assets/icon.png
+Name: Cucu
+Sileodepiction: https://repo.xyaman.xyz/depictions/cucu/depiction.json
+
 Package: com.xyaman.libkuro
 Version: 0.0.3
 Architecture: iphoneos-arm
